@@ -1,21 +1,136 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  border: 1px;
+  height: 80px;
+  background-color: purple;
+  color: white;
+}
+.header h3{
+  margin-top: 30px;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+}
+.header :first-child{
+  margin-left: 100px;
+}
+.header :nth-child(2){
+  display: flex;
+  list-style: none;
+
+ 
+}
+.header ul{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.header li{
+  margin-left: 10px;
+}
+.header button{
+  width: 150px;
+  height: 50px;
+  margin-top: 12px;
+  margin-left: 200px;
+  border-radius: 20px;
+  background-color: blue;
+  border: 1px;
+  color: white;
+
+}
+.findintern{
+  height: 70px;
+  border: 1px solid;
+  background-color:#110A48;
+  line-height: 5px;
+  
+
+}
+.findintern :first-child{
+  color: white;
+  margin-top:20px ;
+  text-align: center;
+}
+.findintern :nth-child(2){
+  color: white;
+  text-align: center;
+  margin-top: 2px;
+  
+  
+}
+.backgroundimage{
+  background-image: url(../assets/images/backgroundimage.jpeg);
+  height: 800px;
+  border: 1px solid;
+  background-size: cover;
+  clip-path: polygon(0 0,100% 0%,100% 100%,0 70%);
+
+  
+}
+.text{
+  width: 1000px;
+  line-height: 40px;
+  margin-left: 100px;
+}
+.learnmore{
+  border: 1px;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color:#110A48;
+  color: #fff;
+  margin-left: 560px;
+  
+}
+.howtoapply{
+  border: 1px solid;
+  height: 150px;
+  background-color:purple;
+  margin-top: 10px;
+  line-height: 5px;
+}
+.howtoapply :first-child{
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 50px;
+}
+.howtoapply :nth-child(2){
+  color: #fff;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+form{
+ width: 500px;
+ height: 300px;
+ border: 1px solid;
+ margin-top: 100px;
+ margin-left: 400px;
+ border-radius: 20px;
+ line-height: 10px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+input{
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  margin-left: 170px;
+  border: 1px solid;
+  
+   
 }
+label{
+margin: 20px;
+ 
+ }
+ .footer{
+  background-color: purple;
+  height: 100px;
+  color: #fff;
+  line-height: 100px;
+  text-align: center;
+  
+ }
+ 
