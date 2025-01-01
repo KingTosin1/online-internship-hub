@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
 
 function Home() {
     return (
@@ -35,7 +36,7 @@ function Home() {
                 <p>How To Apply</p>
                 <p>Fill the form below</p>
             </div>
-            <form method='post' action=''><br></br>
+            <form   method='post'><br></br>
                 <label for='name'>Full Name</label>
                 <input type='name'></input><br></br>
                 <label for='text'>Education</label>
