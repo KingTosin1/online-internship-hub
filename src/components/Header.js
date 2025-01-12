@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       <div className="header">
-        <h3>The Interns Hub</h3>
+      <Link href="./landingpage"><h3>The Interns Hub</h3></Link>
         
           <ul>
             <li><Link href="./home">Home</Link></li>
