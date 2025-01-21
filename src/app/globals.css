@@ -84,7 +84,7 @@ body {
   border: none;
   margin: 20px auto;
   text-align: center;
-  line-height: 40px;
+  line-height: 10px;
 }
 
 /* How to Apply Section */
@@ -301,8 +301,9 @@ form input {
 .findintern2 h3, .findintern2 p {
   text-align: center;
   margin: 5px 0;
-  color: #A62E2E;
+  color: #fff;
 }
+
 
 /* Know More Section */
 .knowmore {
@@ -541,6 +542,13 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+.score{
+  width: 350px;
+  text-align: center;
+  margin: 100px;
+  position: absolute;
+
+}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
@@ -585,6 +593,13 @@ button {
     font-size: 14px;
     padding: 10px;
   }
+  .score{
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+    position: absolute;
+  
+  }
 }
 
 @media (max-width: 480px) {
@@ -602,6 +617,14 @@ button {
 
   .innovative-solutions {
     font-size: 12px;
+  }
+  .score{
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+    position: absolute;
+  
   }
 
   .sign-up,

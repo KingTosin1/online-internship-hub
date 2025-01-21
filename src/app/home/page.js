@@ -43,16 +43,16 @@ function Home() {
         </p>
       </div>
 
-      {/* Learn More Button */}
+      
       <button className="learnmore btn btn-primary">Learn More</button>
 
-      {/* How to Apply Section */}
+      
       <div className="howtoapply">
         <p>How To Apply</p>
         <p>Fill the form below</p>
       </div>
 
-      {/* Form Section */}
+      
       <form method="post" className="container">
         <label htmlFor="name">Full Name</label>
         <input type="text" id="name" name="name" />
